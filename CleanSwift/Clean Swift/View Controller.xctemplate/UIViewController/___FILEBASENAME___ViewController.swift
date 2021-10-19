@@ -17,10 +17,10 @@ class ___VARIABLE_sceneName___ViewController: UIViewController, ___VARIABLE_scen
 
     // MARK: - Object lifecycle
 
-//    init() {
-//        super.init()
-//        setup()
-//    }
+    init() {
+        super.init(nibName: nil, bundle: nil)
+        setup()
+    }
 
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
